@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="utf-8" />
+    <title>Moderní Chat</title>
+    <link rel="stylesheet" href="css/site.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.0/signalr.min.js" integrity="sha512-..." crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>Chatovací místnost</h1>
+    </header>
+    <main>
+        <ul id="messagesList"></ul>
+        <div id="inputArea">
+            <input type="text" id="userInput" placeholder="Uživatelské jméno" />
+            <input type="text" id="messageInput" placeholder="Zpráva" />
+            <button id="sendButton">Odeslat</button>
+        </div>
+    </main>
+
+    <script>
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl('/chatHub')
+            .build();
+
+        connection.on('ReceiveMessage', (user, message) => {
+            const now = new Date();
+            const timestamp = now.toLocaleTimeString();
+            const li = document.createElement('li');
+            li.innerHTML = `<span>${user}: ${message}</span><small>${timestamp}</small>`;
+            document.getElementById('messagesList').appendChild(li);
+            document.getElementById('messagesList').scrollTop = document.getElementById('messagesList').scrollHeight;
+        });
+
+        connection.start().catch(err => console.error(err));
+
+        document.getElementById('sendButton').addEventListener('click', () => {
+            const user = document.getElementById('userInput').value;
+            const message = document.getElementById('messageInput').value;
+            if (user && message) {
+                connection.invoke('SendMessage', user, message)
+                    .then(() => document.getElementById('messageInput').value = '')
+                    .catch(err => console.error(err));
+            }
+        });
+    </script>
+</body>
+</html>

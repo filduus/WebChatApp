@@ -1,0 +1,702 @@
+{
+  "Version": 1,
+  "Hash": "bRt3B5e18sgPpcMPALRp++caGYYRJWcgM28IKSoE6/c=",
+  "Source": "WebChatApp",
+  "BasePath": "_content/WebChatApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebChatApp\\wwwroot",
+      "Source": "WebChatApp",
+      "ContentRoot": "C:\\Users\\bando\\WebChatApp\\wwwroot\\",
+      "BasePath": "_content/WebChatApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\bando\\WebChatApp\\obj\\Debug\\net9.0\\compressed\\kwzzfl7p46-sjiog7d8y2.gz",
+      "SourceId": "WebChatApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bando\\WebChatApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/WebChatApp",
+      "RelativePath": "css/site#[.{fingerprint=sjiog7d8y2}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\bando\\WebChatApp\\wwwroot\\css\\site.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "09px3lo1l9",
+      "Integrity": "7Oqa1+XnV9q88sWqGEykMfH7kV4me+tW7t8M6QCUy8o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bando\\WebChatApp\\wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\bando\\WebChatApp\\obj\\Debug\\net9.0\\compressed\\zp2x1infwx-89re2ukk6o.gz",
+      "SourceId": "WebChatApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bando\\WebChatApp\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/WebChatApp",
+      "RelativePath": "index#[.{fingerprint=89re2ukk6o}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\bando\\WebChatApp\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "eoh9aqvr1q",
+      "Integrity": "vmPIepfTj5RPrZLWxh7cfiY+LhL6atYWjV3CD9BPkps=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\bando\\WebChatApp\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\bando\\WebChatApp\\wwwroot\\css\\site.css",
+      "SourceId": "WebChatApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bando\\WebChatApp\\wwwroot\\",
+      "BasePath": "_content/WebChatApp",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sjiog7d8y2",
+      "Integrity": "6M/F14gIAe4qbJkAGRLVVgvI0F/29qMbmVB82Gwt2B8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\bando\\WebChatApp\\wwwroot\\index.html",
+      "SourceId": "WebChatApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bando\\WebChatApp\\wwwroot\\",
+      "BasePath": "_content/WebChatApp",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "89re2ukk6o",
+      "Integrity": "fDt9pladmngZkFgYK21SHw5LmbY3/28YLqxHq9XZZL8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\bando\\WebChatApp\\obj\\Debug\\net9.0\\compressed\\kwzzfl7p46-sjiog7d8y2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002105263158"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "474"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7Oqa1+XnV9q88sWqGEykMfH7kV4me+tW7t8M6QCUy8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 20:07:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"6M/F14gIAe4qbJkAGRLVVgvI0F/29qMbmVB82Gwt2B8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6M/F14gIAe4qbJkAGRLVVgvI0F/29qMbmVB82Gwt2B8="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\bando\\WebChatApp\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1242"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6M/F14gIAe4qbJkAGRLVVgvI0F/29qMbmVB82Gwt2B8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 20:07:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6M/F14gIAe4qbJkAGRLVVgvI0F/29qMbmVB82Gwt2B8="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\bando\\WebChatApp\\obj\\Debug\\net9.0\\compressed\\kwzzfl7p46-sjiog7d8y2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "474"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7Oqa1+XnV9q88sWqGEykMfH7kV4me+tW7t8M6QCUy8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 20:07:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7Oqa1+XnV9q88sWqGEykMfH7kV4me+tW7t8M6QCUy8o="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.sjiog7d8y2.css",
+      "AssetFile": "C:\\Users\\bando\\WebChatApp\\obj\\Debug\\net9.0\\compressed\\kwzzfl7p46-sjiog7d8y2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002105263158"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "474"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7Oqa1+XnV9q88sWqGEykMfH7kV4me+tW7t8M6QCUy8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 20:07:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"6M/F14gIAe4qbJkAGRLVVgvI0F/29qMbmVB82Gwt2B8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sjiog7d8y2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6M/F14gIAe4qbJkAGRLVVgvI0F/29qMbmVB82Gwt2B8="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.sjiog7d8y2.css",
+      "AssetFile": "C:\\Users\\bando\\WebChatApp\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1242"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6M/F14gIAe4qbJkAGRLVVgvI0F/29qMbmVB82Gwt2B8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 20:07:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sjiog7d8y2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6M/F14gIAe4qbJkAGRLVVgvI0F/29qMbmVB82Gwt2B8="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.sjiog7d8y2.css.gz",
+      "AssetFile": "C:\\Users\\bando\\WebChatApp\\obj\\Debug\\net9.0\\compressed\\kwzzfl7p46-sjiog7d8y2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "474"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7Oqa1+XnV9q88sWqGEykMfH7kV4me+tW7t8M6QCUy8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 20:07:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sjiog7d8y2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7Oqa1+XnV9q88sWqGEykMfH7kV4me+tW7t8M6QCUy8o="
+        }
+      ]
+    },
+    {
+      "Route": "index.89re2ukk6o.html",
+      "AssetFile": "C:\\Users\\bando\\WebChatApp\\obj\\Debug\\net9.0\\compressed\\zp2x1infwx-89re2ukk6o.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001142857143"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "874"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vmPIepfTj5RPrZLWxh7cfiY+LhL6atYWjV3CD9BPkps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 20:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"fDt9pladmngZkFgYK21SHw5LmbY3/28YLqxHq9XZZL8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "89re2ukk6o"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fDt9pladmngZkFgYK21SHw5LmbY3/28YLqxHq9XZZL8="
+        }
+      ]
+    },
+    {
+      "Route": "index.89re2ukk6o.html",
+      "AssetFile": "C:\\Users\\bando\\WebChatApp\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2040"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fDt9pladmngZkFgYK21SHw5LmbY3/28YLqxHq9XZZL8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 20:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "89re2ukk6o"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fDt9pladmngZkFgYK21SHw5LmbY3/28YLqxHq9XZZL8="
+        }
+      ]
+    },
+    {
+      "Route": "index.89re2ukk6o.html.gz",
+      "AssetFile": "C:\\Users\\bando\\WebChatApp\\obj\\Debug\\net9.0\\compressed\\zp2x1infwx-89re2ukk6o.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "874"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vmPIepfTj5RPrZLWxh7cfiY+LhL6atYWjV3CD9BPkps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 20:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "89re2ukk6o"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vmPIepfTj5RPrZLWxh7cfiY+LhL6atYWjV3CD9BPkps="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\bando\\WebChatApp\\obj\\Debug\\net9.0\\compressed\\zp2x1infwx-89re2ukk6o.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001142857143"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "874"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vmPIepfTj5RPrZLWxh7cfiY+LhL6atYWjV3CD9BPkps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 20:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"fDt9pladmngZkFgYK21SHw5LmbY3/28YLqxHq9XZZL8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fDt9pladmngZkFgYK21SHw5LmbY3/28YLqxHq9XZZL8="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\bando\\WebChatApp\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2040"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fDt9pladmngZkFgYK21SHw5LmbY3/28YLqxHq9XZZL8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 20:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fDt9pladmngZkFgYK21SHw5LmbY3/28YLqxHq9XZZL8="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\bando\\WebChatApp\\obj\\Debug\\net9.0\\compressed\\zp2x1infwx-89re2ukk6o.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "874"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vmPIepfTj5RPrZLWxh7cfiY+LhL6atYWjV3CD9BPkps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 20:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vmPIepfTj5RPrZLWxh7cfiY+LhL6atYWjV3CD9BPkps="
+        }
+      ]
+    }
+  ]
+}
